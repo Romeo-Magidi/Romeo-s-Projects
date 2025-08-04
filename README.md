@@ -1,1 +1,109 @@
-# Romeo-s-Projects
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unlock Your Food Freedom with CALO CLUB!</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+        }
+        /* Ensure responsive behavior on different clients */
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100% !important;
+                padding: 0 16px !important;
+            }
+            .header-text {
+                font-size: 24px !important;
+                line-height: 1.2 !important;
+            }
+            .body-text {
+                font-size: 16px !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto p-4 max-w-lg">
+        <!-- Main Email Container -->
+        <table class="w-full bg-white rounded-lg shadow-md overflow-hidden" cellpadding="0" cellspacing="0" border="0">
+            <!-- Header Section -->
+            <tr>
+                <td class="p-6 text-center">
+                    <!-- Logo/Brand Image (Placeholder) -->
+                    <img src="https://placehold.co/150x50/69a764/ffffff?text=CALO" alt="CALO Logo" class="mx-auto h-12 mb-4">
+                    <h1 class="text-3xl font-bold text-gray-800 header-text mb-2">Unlock Your Food Freedom!</h1>
+                    <p class="text-lg text-gray-600 font-medium">Welcome to the email from CALO.</p>
+                </td>
+            </tr>
+
+            <!-- Value Props Section -->
+            <tr>
+                <td class="p-6">
+                    <p class="text-gray-700 text-base leading-relaxed body-text mb-4">
+                        We're excited to introduce you to the <strong class="font-semibold text-[#69a764]">CALO CLUB</strong>, a premium subscription designed to make your food journey even more rewarding. For just <strong class="font-semibold text-[#69a764]">$100/year</strong>, you'll get access to exclusive benefits that help you eat well and save big!
+                    </p>
+                    <div class="space-y-4">
+                        <!-- Value Props List -->
+                        <div class="flex items-start">
+                            <span class="text-[#69a764] text-2xl mr-3 font-bold">•</span>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Preferential Customer Service</h3>
+                                <p class="text-sm text-gray-600">Get your questions answered faster and receive dedicated support from our team.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-[#69a764] text-2xl mr-3 font-bold">•</span>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Exclusive Discounts</h3>
+                                <p class="text-sm text-gray-600">Enjoy special pricing and deals available only to CALO CLUB members.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-[#69a764] text-2xl mr-3 font-bold">•</span>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Higher Cashback Rates</h3>
+                                <p class="text-sm text-gray-600">Earn more back on every meal you purchase through the CALO app.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-[#69a764] text-2xl mr-3 font-bold">•</span>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Early Access to Promos</h3>
+                                <p class="text-sm text-gray-600">Be the first to know about new offerings and exciting promotions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- CTA Section -->
+            <tr>
+                <td class="p-6 text-center">
+                    <a href="https://calo.app" target="_blank" style="background-color: #69a764; color: #ffffff; padding: 12px 24px; border-radius: 9999px; font-weight: bold; text-decoration: none; display: inline-block;">
+                        Subscribe to CALO
+                    </a>
+                </td>
+            </tr>
+
+            <!-- Footer Section -->
+            <tr>
+                <td class="p-4 text-center text-gray-500 text-xs">
+                    <p>&copy; 2024 CALO. All rights reserved.</p>
+                    <p>
+                        <a href="#" class="text-[#69a764] hover:text-[#558f55]">Unsubscribe</a> | 
+                        <a href="#" class="text-[#69a764] hover:text-[#558f55]">Manage Preferences</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
